@@ -118,7 +118,6 @@ async function buscarOfertasEmAlta() {
     "lente portatil para celular",
     "iphone",
     "celular samsung",
-    "celular xiaomi",
     "celular redimi",
     "acessorios para veiculos",
     "aspirador de po portatil",
@@ -133,7 +132,8 @@ async function buscarOfertasEmAlta() {
     "modelador de cachos automatico",
     "produto para pets",
     "comedouro para caes e gatos",
-    "tapete higienico lavavel pet"
+    "tapete higienico lavavel pet",
+    "cosmeticos"
 ];
     const termoSorteado = temas[Math.floor(Math.random() * temas.length)];
     console.log(`[Shopee] Buscando ofertas para a palavra-chave: "${termoSorteado}"`);
